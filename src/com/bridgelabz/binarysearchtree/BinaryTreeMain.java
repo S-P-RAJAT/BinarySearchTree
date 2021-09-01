@@ -8,6 +8,9 @@ public class BinaryTreeMain {
 		myBinaryTree.add(56);
 		myBinaryTree.add(30);
 		myBinaryTree.add(70);
+		int size=myBinaryTree.getSize();
+		System.out.println("Size of the Binary Search Tree: "+size);
+
 
 	}
 }
