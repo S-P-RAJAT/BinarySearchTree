@@ -22,6 +22,10 @@ public class BinaryTreeMain {
 		
 		int size=myBinaryTree.getSize();
 		System.out.println("Size of the Binary Search Tree: "+size);
+		
+		Integer keyToCheck=63;
+		System.out.println("checking if given key is present in tree :");
+		System.out.println("key present: "+myBinaryTree.search(keyToCheck));
 
 
 	}
